@@ -1,4 +1,4 @@
 ### myblog
 ==================
 
-Learn Fail Learn Succeed
+Learn Fail!!
