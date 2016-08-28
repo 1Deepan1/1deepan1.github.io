@@ -2,43 +2,70 @@
 layout: page
 title: Resume
 ---
+
+<div>
 <small>
-<div class="jpanel panel-default panel-primary">
-<div class="panel-heading ">Summary</div>
-  <div class="panel-body">
-    
-      <ul>
-    {% for summary in site.data.summary %}    
-          <li >{{ summary }}.</li>
-    {% endfor %} 
-      <ul>  
-    
-</div>
-</div>
+
+<h2 class="post-date">Summary</h2>
+<ul>
+{% for summary in site.data.summary %}    
+<li class="small">{{ summary }}.</li>
+{% endfor %} 
+</ul>  
 
 
-<div class="jpanel panel-default panel-primary">
-<div class="panel-heading">Skills</div>
-  <div class="panel-body">
-    <div class="btn-group" role="group">
-    {% for skill in site.data.skills %}
-            <button type="button" class="btn btn-default">{{ skill }}</button>
-    {% endfor %} 
-</div>
-</div>
-</div>
 
 
-<div class="jpanel panel-default panel-primary">
-<div class="panel-heading">Certifications</div>
-  <div class="panel-body">
-    <dl class="dl-horizontal">
-    {% for certs in site.data.certs %}
-            <img src="{{ certs.logo }}">
-            <ul>
-              <li class="small"><Strong>{{ certs.name }}</Strong>, {{ certs.org }}  - Expiry : {{ certs.exp }}</li>
-            </ul>
-    {% endfor %}
-</div>
-</div>
+<h2 class="post-date">Skills</h2>
+{% for skill in site.data.skills %}
+<button type="button" ><strong>{{ skill }}</strong></button>
+{% endfor %} 
+<br>
+<br>
+
+<h2 class="post-date">Experience</h2>
+<table>
+<th>Period</th>
+<th>Company</th>
+<th>Title</th>
+{% for job in site.data.jobs %}
+<tr>
+<td class="small">{{ job.period }}</td>
+<td class="small">{{ job.company }}</td>
+<td class="small">{{ job.title }}</td>
+</tr>
+{% endfor %}
+</table>
+
+
+
+<h2 class="post-date">Education</h2>
+<table>
+  <th>Qualification</th>
+  <th>College</th>
+  <th>University</th>
+{% for qualification in site.data.edu %}  
+<tr>    
+<td class="small">{{ qualification.qualification }}</td>
+<td class="small">{{ qualification.college }}</td>
+<td class="small">{{ qualification.university }}</td>
+</tr>
+{% endfor %}
+</table>
+
+
+<h2 class="post-date">Certifications</h2>
+<img src="{{ certs.logo }}"/>
+<ul>
+  {% for certs in site.data.certs %}
+<li class="small"><Strong>{{ certs.name }}</Strong>, {{ certs.org }} </li>
+{% endfor %}
+</ul>
+
 </small>
+</div>
+
+
+
+
+
