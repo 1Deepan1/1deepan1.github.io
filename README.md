@@ -1,4 +1,4 @@
-### myblog
+### Deepan Kumar Manivannan's Blog
 ==================
 
-Learn Fail!!
+Learn to Fail!!
