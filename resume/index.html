@@ -9,7 +9,7 @@ title: Resume
     
       <ul>
     {% for summary in site.data.summary %}    
-          <li class="small">{{ summary }}.</li>
+          <li >{{ summary }}.</li>
     {% endfor %} 
       <ul>  
     
@@ -28,31 +28,6 @@ title: Resume
 </div>
 </div>
 
-<div class="jpanel panel-default panel-primary">
-<div class="panel-heading">Experience</div>
-  <div class="panel-body">
-    <dl class="dl-horizontal">
-    {% for job in site.data.jobs %}
-            <dt>Title</dt><dd class="small">{{ job.title }}</dd>
-            <dt>Companty</dt><dd class="small">{{ job.company }}</dd>
-            <dt>Period</dt><dd class="small">{{ job.period }}</dd>
-            <p>{{ job.description }}</p>
-    {% endfor %}
-</div>
-</div>
-
-<div class="jpanel panel-default panel-primary">
-<div class="panel-heading">Education</div>
-  <div class="panel-body">
-    <dl class="dl-horizontal">
-     {% for qualification in site.data.edu %}      
-            <dt>Qualification</dt><dd class="small">{{ qualification.qualification }}</dd>
-            <dt>College</dt><dd class="small">{{ qualification.college }}</dd>
-            <dt>University</dt><dd class="small">{{ qualification.university }}</dd>
-            <p>{{ job.description }}</p>
-    {% endfor %}
-</div>
-</div>
 
 <div class="jpanel panel-default panel-primary">
 <div class="panel-heading">Certifications</div>
