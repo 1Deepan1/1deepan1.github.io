@@ -37,7 +37,7 @@ Naming convention of variable LOGGER/logger is a matter of preference - PMD and 
 
 How to Log
 ----------
-
+<br>
 First of all there shouldn't be any concatenation operation
 
 
