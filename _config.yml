@@ -41,8 +41,8 @@ google_analytics:
 
 # Github
 github:
-  repo:           https://github.com/1deepan1/1deepan1.github.io
-  feedback:       https://github.com/1deepan1/feedback/issues/new
+  repo:           https://github.com/deepanman/deepanman.github.io
+  feedback:       https://github.com/deepanman/feedback/issues/new
 
 # Version Info
 version:          1.0.0
