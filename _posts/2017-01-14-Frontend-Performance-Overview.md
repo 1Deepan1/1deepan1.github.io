@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Frontend Performance - Overview - Part 1(Draft)
-bigimg: /assets/images/2.png
+bigimg: /img/2.png
 categories: performance
 tags: Frontend Performaance
 comments: true
@@ -60,9 +60,9 @@ to acheive the above we need to understand few metrics and concepts ,
 ###### 3g
 ![alt text][3g]
 
-[3g]:../../assets/images/perf-frontend/3g.png
+[3g]:{{ site.baseurl }}assets/images/perf-frontend/3g.png
 
 ###### 4g
 ![alt text][4g]
 
-[4g]:../../assets/images/perf-frontend/4g.png
+[4g]:{{ site.baseurl }}assets/images/perf-frontend/4g.png
