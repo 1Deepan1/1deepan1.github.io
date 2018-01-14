@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Frontend Performance - Overview - Part 1
+title: Frontend Performance - Overview - Part 1(Draft)
 bigimg: assets/images/2.png
 categories: pefromance
 tags: Frontend Performaance
