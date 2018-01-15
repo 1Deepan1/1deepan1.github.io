@@ -36,7 +36,7 @@ analytics: true
 - User-centric performance model that breaks down the user's experience into key actions
 ![alt text][RAIL]
 
-[RAIL]:../../assets/images/perf-frontend/rail.png
+{% include image name="rail.png" caption="RAIL" %}
 
 - Response: respond in under 50ms
 - Animation: produce a frame in 10ms
@@ -58,11 +58,7 @@ to acheive the above we need to understand few metrics and concepts ,
 
 ###### Mobile Networks
 ###### 3g
-![alt text][3g]
-
-[3g]:{{ site.baseurl }}assets/images/perf-frontend/3g.png
+- {% include image name="3g.png" caption="" %}
 
 ###### 4g
-![alt text][4g]
-
-[4g]:{{ site.baseurl }}assets/images/perf-frontend/4g.png
+- {% include image name="4g.png" caption="" %}
